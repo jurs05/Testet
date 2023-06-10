@@ -3,7 +3,7 @@ import { View, Text, Image, StyleSheet } from "react-native";
 
 export default function App() {
   const estudante = {
-    nome: "Marina Silva",
+    nome: "Julia Resende",
     idade: 32,
     universidade: "Universidade ABC",
     metas: "Tornar-me uma engenheira de software bem-sucedida",
