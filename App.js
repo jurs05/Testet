@@ -5,24 +5,24 @@ export default function App() {
   const estudante = {
     nome: "Julia Resende",
     idade: 18,
-    universidade: "Universidade CTOP",
-    metas: "Tornar-me uma engenheira de software bem-sucedida",
-    hobbies: "Tocar violão, ler livros e fazer trilhas",
-    religiao: "Católica",
-    estadoCivil: "Casada",
-    filhos: 2,
+    universidade: "Universidade CTOP.",
+    metas: "Tornar-me bem-sucedida.",
+    hobbies: "Jogar, ler livros e ouvir música.",
+    religiao: "Não tenho.",
+    estadoCivil: "Solteira.",
+    pets: 1,
     links: [
       { label: "LinkedIn", url: "https://linkedin.com" },
       { label: "GitHub", url: "https://github.com" },
     ],
-    avatar: require("./src/assets/profile.jpg"), // Substitua pelo arquivo de imagem padrão apropriado
+    avatar: require("./src/assets/jungkook2.png"), // Substitua pelo arquivo de imagem padrão apropriado
     historia:
-      "Tenho trabalhado como engenheira de software nos últimos 5 anos. Comecei minha carreira na Empresa XYZ, onde trabalhei em diversos projetos e adquiri experiência em desenvolvimento web. Depois disso, ingressei na Corporação ABC, onde me especializei em desenvolvimento de aplicativos móveis. Atualmente, trabalho como freelancer, assumindo projetos de diferentes clientes e expandindo meu conjunto de habilidades. No meu tempo livre, gosto de aprender novas tecnologias e contribuir para projetos de código aberto.",
+      "Estou aprendendo programação, na linguagem JavaScript. Tenho conhecimento básico em francês e inglês.",
   };
 
   const paletaCores = {
-    primaria: "#FF6B6B", // Cor primária
-    secundaria: "#70C1B3", // Cor secundária
+    primaria: "#333333", // Cor primária
+    secundaria: "#FFFFFF", // Cor secundária
     texto: "#333333", // Cor do texto
     subtitulo: "#444444", // Cor do subtítulo
     link: "#0066CC", // Cor do link
@@ -42,7 +42,7 @@ export default function App() {
       padding: 20,
     },
     perfil: {
-      backgroundColor: "#FFFFFF",
+      backgroundColor: "#e5ceed",
       borderRadius: 10,
       padding: 20,
       flexDirection: "column",
@@ -105,7 +105,7 @@ export default function App() {
           <Text style={estilos.texto}>
             Estado Civil: {estudante.estadoCivil}
           </Text>
-          <Text style={estilos.texto}>Filhos: {estudante.filhos}</Text>
+          <Text style={estilos.texto}>Pets: {estudante.pets}</Text>
           <Text style={estilos.subtitulo}>Metas:</Text>
           <Text style={estilos.texto}>{estudante.metas}</Text>
           <Text style={estilos.subtitulo}>Hobbies:</Text>
