@@ -4,8 +4,8 @@ import { View, Text, Image, StyleSheet } from "react-native";
 export default function App() {
   const estudante = {
     nome: "Julia Resende",
-    idade: 32,
-    universidade: "Universidade ABC",
+    idade: 18,
+    universidade: "Universidade CTOP",
     metas: "Tornar-me uma engenheira de software bem-sucedida",
     hobbies: "Tocar violão, ler livros e fazer trilhas",
     religiao: "Católica",
